@@ -14,7 +14,7 @@ export default function App() {
       {x.map((current )=>{
         return(
           <>
-         <Accordion  key={current.id}{...current} />
+         <Accordion  key = {current.id}{...current} />
           </>
         )
       })}
