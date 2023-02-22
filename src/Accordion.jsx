@@ -4,7 +4,7 @@ export default function Accordion({questoins, Answer}) {
   const[y , setY]= useState(false)
   return (
     <>
-    <div style={{display:'flex' , justifyContent: "center",
+    <div style={{display:'flex'  , justifyContent: "center",
     alignItems: "center" }}>
       <div>
       <h3 style={{  color:'red' , width:'30rem' , display:'flex' , justifyContent:"space-between" ,  cursor: "pointer"
