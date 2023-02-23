@@ -14,7 +14,7 @@ export default function Accordion({questoins, Answer}) {
       </h3>
      
 
-      {y && <p style={{width:'30rem'}}>{Answer}</p>}
+      {y && <p style={{width:'30rem'  , width:'30rem' , height:'10vh' , backgroundColor:'gray' , color:'white' , textAline:'center'}}>{Answer}</p>}
       </div>
       </div>
     </>

@@ -10,7 +10,7 @@ export default function App() {
   
   return (
     <div>
-      <h1 style={{display:'flex' , justifyContent: "center"}}>React interview Questions</h1>
+      <h1 style={{display:'flex' , justifyContent: "center" ,  fontStyle: "Monospace"}}> ReactJS Interview Questions</h1>
       {x.map((current )=>{
         return(
           <>
